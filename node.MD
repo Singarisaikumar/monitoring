@@ -1,8 +1,11 @@
 
-**Node configuration**
+# Node configuration
+
 run with sudo access
 
+```
 https://github.com/node_exporter/node_exporter/releases/download/v1.10.2/node_exporter-1.10.2.linux-amd64.tar.gz
+```
 
 # Untar file
 

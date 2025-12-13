@@ -1,7 +1,9 @@
-**Prometheus configuration**
+# Prometheus configuration
 run with sudo access
 
+```
 https://github.com/prometheus/prometheus/releases/download/v3.8.0/prometheus-3.8.0.linux-amd64.tar.gz
+```
 
 # Untar file
 
