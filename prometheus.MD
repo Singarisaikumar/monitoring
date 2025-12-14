@@ -6,6 +6,7 @@ wget https://github.com/prometheus/prometheus/releases/download/v3.8.0/prometheu
 ```
 
 # Untar file
+
 ```
 tar -xf prometheus-3.8.0.linux-amd64.tar.gz
 ```
@@ -15,6 +16,7 @@ tar -xf prometheus-3.8.0.linux-amd64.tar.gz
 vim /etc/systemd/system/prometheus.service
 ```
 # prometheus systemctl service
+
 ```
 [Unit]
 Description=Prometheus Server
