@@ -1,6 +1,9 @@
 # Prometheus configuration
-run with sudo access
+# run with sudo access
 
+```
+cd /opt
+```
 ```
 wget https://github.com/prometheus/prometheus/releases/download/v3.8.0/prometheus-3.8.0.linux-amd64.tar.gz
 ```
@@ -9,6 +12,11 @@ wget https://github.com/prometheus/prometheus/releases/download/v3.8.0/prometheu
 
 ```
 tar -xf prometheus-3.8.0.linux-amd64.tar.gz
+```
+# rename the folder (optional but easy to use)
+
+```
+mv prometheus-3.8.0.linux-amd64.tar.gz prometheus
 ```
 # create systemctl folder
 

@@ -1,16 +1,21 @@
 
 # Node configuration
 
-run with sudo access
+# run with sudo access
 
 ```
-https://github.com/node_exporter/node_exporter/releases/download/v1.10.2/node_exporter-1.10.2.linux-amd64.tar.gz
+cd /opt
+```
+
+```
+wget https://github.com/node_exporter/node_exporter/releases/download/v1.10.2/node_exporter-1.10.2.linux-amd64.tar.gz
 ```
 
 # Untar file
 
+```
 tar -xf node_exporter-1.10.2.linux-amd64.tar.gz
-
+```
 # create systemctl folder
 
 ```
@@ -47,6 +52,7 @@ systemctl start node_exporter
 systemctl status node_exporter 
 ```
 # enable service
+
 ```
 systemctl enable node_exporter
 ```
@@ -100,6 +106,7 @@ scrape_configs:
           name: node
 ```
 # daemon reolad
+
 ```
 systemctl daemon-reload
 ```
