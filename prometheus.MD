@@ -39,4 +39,4 @@ systemctl start prometheus
 
 ```
 systemctl status prometheus 
-``
+```
