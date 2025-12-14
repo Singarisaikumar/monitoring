@@ -17,7 +17,7 @@ tar -xf node_exporter-1.10.2.linux-amd64.tar.gz
 # rename the folder (optional but easy to use)
 
 ```
-mv node_exporter-1.10.2.linux node_exporter
+mv node_exporter-1.10.2.linux-amd64 node_exporter
 ```
 # create systemctl folder
 
