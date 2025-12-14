@@ -60,6 +60,9 @@ systemctl enable node_exporter
 ```
 # connecting with prometheus with node ,perform this prometheus server (not in node)
 
+```
+cd /opt/prometheus
+```
 # open prometheus.yml in prometheus server
 
 ```
