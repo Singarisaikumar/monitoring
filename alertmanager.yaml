@@ -1,0 +1,22 @@
+route:
+  group_by: ['alertname']
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 1h
+  receiver: 'ses'
+receivers:
+  - name: 'ses'
+    email_configs:
+      - smarthost: email-smtp.us-east-1.amazonaws.com:587
+        auth_username: AKIASZ3Y543MNY4JYVXR
+        auth_password: BF7EH0tr8t6zPVepQwX3bFx3rWSg0roIp42HxWUCDCEE
+        from: wwwsaikumar150@gmail.com
+        to: saikumar07011998@gmail.com
+        headers:
+          subject: Prometheus Mail Alert
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'dev', 'instance']
