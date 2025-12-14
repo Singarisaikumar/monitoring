@@ -19,7 +19,7 @@ systemctl start grafana-server
 systemctl status grafana-server 
 ```
 
-# login using either private or public  if prometheus and grafana is installed in same server 
+# login using saime public ip  if prometheus and grafana is installed in same server 
 # first time only create new password
 ```
 username: admin

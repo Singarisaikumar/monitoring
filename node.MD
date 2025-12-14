@@ -106,7 +106,7 @@ scrape_configs:
 
   - job_name: "nodes"
     static_configs:
-      - targets: ["172.31.3.75:9100"]
+      - targets: ["172.31.3.197:9100"]
         labels:
           name: node
 ```
