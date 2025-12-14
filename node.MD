@@ -6,22 +6,24 @@
 ```
 cd /opt
 ```
-
 ```
 wget https://github.com/node_exporter/node_exporter/releases/download/v1.10.2/node_exporter-1.10.2.linux-amd64.tar.gz
 ```
-
 # Untar file
 
 ```
 tar -xf node_exporter-1.10.2.linux-amd64.tar.gz
+```
+# rename the folder (optional but easy to use)
+
+```
+mv node_exporter-1.10.2.linux node_exporter
 ```
 # create systemctl folder
 
 ```
 vim /etc/systemd/system/node_exporter.service
 ```
-
 # node_exporter systemctl service
 
 ```
