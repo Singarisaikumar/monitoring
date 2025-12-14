@@ -6,9 +6,9 @@ https://github.com/prometheus/prometheus/releases/download/v3.8.0/prometheus-3.8
 ```
 
 # Untar file
-
+```
 tar -xf prometheus-3.8.0.linux-amd64.tar.gz
-
+```
 # create systemctl folder
 
 ```
