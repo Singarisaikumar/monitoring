@@ -58,7 +58,7 @@ systemctl status node_exporter
 ```
 systemctl enable node_exporter
 ```
-# connecting with prometheus with node ,perform this prometheus server (not in node)
+## connecting with prometheus with node ,perform this prometheus server (not in node) 
 
 ```
 cd /opt/prometheus
